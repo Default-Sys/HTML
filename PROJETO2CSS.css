@@ -107,9 +107,10 @@ img{
 
 @media screen and (max-width: 900px) { 
     .direito { 
-        width: 100%;
-        top: 100px;
-        margin: 100px 0px;
+        width: 100vh;
+        height:auto;
+        position: absolute;
+        margin-left: -90px;
     }
 
     .esquerdo { 
@@ -117,14 +118,15 @@ img{
         
         height: 50%;
         width: 10%;
-        position: static;
+        position: relative;
     }
 
 img  { 
-        top: 0px;
-        right: 287px;
-        padding-top: 300px;
-        
+        top: -100px;
+        height: 322.95px;
+        width: 271;
+        right: -20px;
+        left: 60px;
      }
 header {
     display: none;
@@ -140,11 +142,10 @@ h1 {
 
 article {
     display: inline-block;        
-    margin-top: 516px;
+    margin-top: 820px;
     position: relative;
 
 }
-
 
 }
 
