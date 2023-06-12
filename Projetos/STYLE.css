@@ -1,0 +1,36 @@
+/* PONTO E VIRGULAR É OBRIGATORIO NO CSS <style> Atribui o CCS */
+
+/* PARA USAR A ATRIBUIÇÃO INDIVIDUAL NO CSS É O CÓDIGO #NOMEIDDOELEMENTO */
+
+
+h1 {
+    color: red;
+    font-size: 64px;
+    font-weight: lighter;
+    font-family: 'Creepster', sans-serif;
+    font-style: italic;
+    text-shadow: 10px 10px 10px #000000;
+    margin: 200px;
+}
+
+
+p  { color: rgb(52, 202, 52);
+    font-size: 50px ;
+    font-weight: 40px ;
+    line-height: 40px;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    text-align: center ;
+}
+
+body { color:rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
