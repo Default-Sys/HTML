@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .technologies {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .technology {
+      width: calc(33.33% - 20px);
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      box-sizing: border-box;
+    }
+
+    @media screen and (max-width: 600px) {
+      .technology {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Portfólio Pessoal</h1>
+  </header>
+
+  <main>
+    <h2>Tecnologias</h2>
+
+    <div class="technologies">
+      <div class="technology">
+        <h3>React.js</h3>
+        <p>Descrição do React.js e seu uso em projetos.</p>
+      </div>
+
+      <div class="technology">
+        <h3>HTML5</h3>
+        <p>Descrição do HTML5 e seu uso em projetos.</p>
+      </div>
+
+      <div class="technology">
+        <h3>CSS3</h3>
+        <p>Descrição do CSS3 e seu uso em projetos.</p>
+      </div>
+
+      <!-- Adicione mais tecnologias conforme necessário -->
+    </div>
+  </main>
+</body>
+</html>
